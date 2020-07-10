@@ -37,4 +37,4 @@ models:
     # staging:
     #   +materialized: ephemeral
     # Testing Master change
-    # This is a change for new-branch which i'll revert
+    # This is a change for new-branch
