@@ -36,3 +36,4 @@ models:
     +materialized: table
     # staging:
     #   +materialized: ephemeral
+    # Testing Master change
