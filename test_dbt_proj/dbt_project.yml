@@ -38,3 +38,4 @@ models:
     #   +materialized: ephemeral
     # Testing Master change
     # This is a change for new-branch
+    # Change for pull request
