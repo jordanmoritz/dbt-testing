@@ -36,6 +36,7 @@ models:
     +materialized: table
     # staging:
     #   +materialized: ephemeral
-    # Testing Master change
-    # This is a change for new-branch
-    # Change for pull request
+    staging:
+        schema: staging
+    covid_19:
+        schema: covid_19
