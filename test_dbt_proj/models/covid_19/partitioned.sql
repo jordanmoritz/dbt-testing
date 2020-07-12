@@ -8,7 +8,7 @@
 
 select
     *
-from `big-query-horse-play.dbt_dataset_covid_19.test_us_govt_response`
+from {{ source('dbt_dataset_covid_19', 'test_us_govt_response') }}
 
 {% if is_incremental() %}
 

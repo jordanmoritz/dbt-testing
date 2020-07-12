@@ -37,6 +37,10 @@ models:
     # staging:
     #   +materialized: ephemeral
     staging:
-        schema: staging
+      schema: staging
+      +labels:
+        type: staging
     covid_19:
-        schema: covid_19
+      schema: covid_19
+      +labels:
+        type: covid

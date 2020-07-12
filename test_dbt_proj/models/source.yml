@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbt_dataset_covid_19
+    tables:
+      - name: country_code_iso
+        freshness: null
+      - name: test_us_govt_response
+        # freshness:
+        #   warn_after: {count: 6, period: day}
+        loaded_at_field: date
